@@ -1,0 +1,5 @@
+# Generate 4 Random no. 
+
+import random
+print(random.randint(1,10000))
+
