@@ -1,0 +1,12 @@
+#LCM of Two Numbers   
+
+a = int(input())
+b = int(input())
+
+max_num = max(a, b)
+
+while True:
+    if max_num % a == 0 and max_num % b == 0:
+        print(max_num)
+        break
+    max_num += 1
